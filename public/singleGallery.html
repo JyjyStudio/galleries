@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeries</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nb.css">
+    <script src="js/randomImage.js" defer></script>
+    <script src="js/singleGallery.js" defer></script>
+</head>
+<body>
+    <header id="mainHeader">
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="galleries.html">Galeries</a></li>
+                </ul>
+            </nav>
+            <!-- <button id="menuToggle" class="hamburger">&nbsp;</button> -->
+    </header>
+    
+    <section id="pageContent">
+        <main id="singleGallery">
+            <h1></h1>
+            <ul>
+            </ul>
+        </main>
+    </section>
+    <footer id="mainFooter">
+        <div id="horloge" style='font-size: 2em;'></div>
+            <script> 
+                var date = new Date();
+                var heure =date.getHours();
+                var minute=date.getMinutes();
+                var seconde=date.getSeconds();
+                document.getElementById("horloge").innerHTML= `il est ${heure}:${minute}:${seconde}`
+            </script>
+    </footer>
+    <figure id="galleryContainer"><img src=""></figure>
+</body>
+</html>

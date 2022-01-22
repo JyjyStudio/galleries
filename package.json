@@ -1,0 +1,11 @@
+{
+  "name": "tests_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "npx tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
