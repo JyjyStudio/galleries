@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell|Raleway&display=swap');
 
-
 :root {
     --black: #333;
     --blue: #7186FF;
@@ -34,11 +33,6 @@ img {
     width: 100%;
     position: fixed;
     top: 0;
-}
-#logoImg{
-    padding: 5px;
-    position: relative;
-    z-index: 1000;
 }
 #mainNav{
     position: absolute;
@@ -77,9 +71,6 @@ img {
     align-self: start;
     margin-left: auto;
 
-}
-#menuToggle.hamburger{
-    background-image: url(../images/layout/hamburger.png);
 }
 #pageContent {
     padding: 100px 20px;
@@ -220,18 +211,6 @@ main ul li a{
 #galleryContainer.visible {
     opacity: 1;
     visibility: visible;
-}
-#mainFooter{
-    background-color: var(--red);
-    height: 40px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    color: var(--white);
-    font-size: .5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media screen and (min-width: 768px){

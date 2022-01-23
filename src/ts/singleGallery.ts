@@ -2,10 +2,10 @@ let galleriesRaw = '{"gal1": {"title": "Bretagne 2019", "images": ["image-1.jpg"
 let galleries = JSON.parse(galleriesRaw);
 let bigImageContainer = <HTMLElement>document.getElementById('galleryContainer');
 let searchParams = new URLSearchParams(window.location.search);
-let id = searchParams.get('id');
+let id = searchParams.get('id') as string;
 let keys = Object.keys(galleries) as Array<string>;
 
-if(id && keys.includes(id)) {
+if(keys.includes(id)) {
     let gallery = <HTMLElement>document.querySelector('#singleGallery ul');
     let titleGallery = <HTMLElement>document.querySelector('#singleGallery h1');
     //ajoute le titre
