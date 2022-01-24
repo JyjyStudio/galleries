@@ -80,31 +80,6 @@ img {
     background-size: cover;
     background-attachment: fixed;
 }
-#pageContent.home{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-#pictInfo {
-    background-color: rgba(155,155,155,0.8);
-    padding: 40px;
-    color: var(--white);
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end;
-    position: relative;
-}
-#pictInfo h1{
-    font-family: Cantarell, Arial, sans-serif;
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-#pictInfo p{
-    margin: 10px 0;
-    font-size: .8em;
-}
 main{
     background-color: rgba(155,155,155,0.8);
     padding: 20px;
