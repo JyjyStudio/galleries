@@ -1,2 +1,4 @@
 public/js/*.js
-.vscode
+images
+*.zip
+*.rar
